@@ -1,11 +1,11 @@
 var playlist={};
 playlist.billieEllish = 'I love you'
 
-function updatePlaylist(object,artist,song){
-  return object[artist] = song
+function updatePlaylist(targetObject,artist,song){
+  return targetObject[artist] = song
 }
 
-function removeFromPlaylist(object,artist){
-Delete object.artist
-return object
+function removeFromPlaylist(targetObject,artist){
+Delete targetObject.artist
+return targetObject
 }
